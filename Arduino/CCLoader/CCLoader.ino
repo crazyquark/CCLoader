@@ -87,7 +87,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 int DD = D6;
 int DC = D5;
 int RESET = D4;
-int LED = 16;
+int LED = BUILTIN_LED;
 
 /******************************************************************************
  VARIABLES*/
