@@ -84,9 +84,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #define RECEIVING             0x01
 
 // Debug control pins & the indicate LED for NodeMCU v2
-int DD = 12;
-int DC = 14;
-int RESET = 2;
+int DD = D6;
+int DC = D5;
+int RESET = D4;
 int LED = 16;
 
 /******************************************************************************
